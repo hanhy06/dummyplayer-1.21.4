@@ -14,8 +14,8 @@ import net.minecraft.util.Hand;
 import net.minecraft.world.World;
 
 public class DummyPlayerEntity extends Entity {
-//    Inventory inventory = new SimpleInventory(36);
-//    Inventory armor = new SimpleInventory(4);
+    Inventory inventory = new SimpleInventory(36);
+    Inventory armor = new SimpleInventory(4);
 
     public DummyPlayerEntity(EntityType<?> type, World world) {
         super(type, world);
